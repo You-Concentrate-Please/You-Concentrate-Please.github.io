@@ -189,7 +189,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2023-10-03 00:11:13 / 修改时间：00:51:08" itemprop="dateCreated datePublished" datetime="2023-10-03T00:11:13+08:00">2023-10-03</time>
+              <time title="创建时间：2023-10-03 00:11:13 / 修改时间：00:54:29" itemprop="dateCreated datePublished" datetime="2023-10-03T00:11:13+08:00">2023-10-03</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -266,7 +266,7 @@ P_{r}(d)=\frac{P_{t}G_{t}G{r}\lambda^{2}}{(4\pi)^{2}d^{2}L}</script>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2023/10/02/My%20first%20Blog/" class="post-title-link" itemprop="url">My firt Blog</a>
+            <a href="/2023/10/02/My%20first%20Blog/" class="post-title-link" itemprop="url">My first Blog - Hexo搭建流程</a>
         </h2>
 
         <div class="post-meta">
@@ -283,7 +283,7 @@ P_{r}(d)=\frac{P_{t}G_{t}G{r}\lambda^{2}}{(4\pi)^{2}d^{2}L}</script>
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-10-03 00:19:21" itemprop="dateModified" datetime="2023-10-03T00:19:21+08:00">2023-10-03</time>
+                <time title="修改时间：2023-10-03 00:59:27" itemprop="dateModified" datetime="2023-10-03T00:59:27+08:00">2023-10-03</time>
               </span>
 
           <br>
@@ -356,13 +356,13 @@ P_{r}(d)=\frac{P_{t}G_{t}G{r}\lambda^{2}}{(4\pi)^{2}d^{2}L}</script>
 <h4 id="修改主题风格（装修）"><a href="#修改主题风格（装修）" class="headerlink" title="修改主题风格（装修）"></a>修改主题风格（装修）</h4><p>这一部分可以按各自需求去网上检索，<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/102592286">枫叶的博客</a>详细罗列了很多，但是有的不太有效，也可参考<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration.html">Hexo官网的文档</a></p>
 <h5 id="站点信息"><a href="#站点信息" class="headerlink" title="站点信息"></a>站点信息</h5><p>站点配置文件（即Blog目录下的_config.yml）</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">阳春</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">平常心</span></span><br><span class="line"><span class="attr">keywords:</span> </span><br><span class="line"><span class="attr">author:</span> <span class="string">Spring</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh-CN</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">Asia/Shanghai</span></span><br></pre></td></tr></table></figure>
-<h5 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h5><p>默认主题为landscape，下载next主题，Blog文件夹下打开<code>Git Bash</code>，运行</p>
+<h5 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h5><p>默认主题为landscape，下载next主题，Blog文件夹下打开<code>Git Bash</code>，运行</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/theme-next/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
 <p>下载next主题，先在站点配置文件中更改</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment">## Plugins: https://hexo.io/plugins/</span></span><br><span class="line"><span class="comment">## Themes: https://hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
 <p>再在主题配置文件（themes/next下的_config.yml）中选择样式</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ---------------------------------------------------------------</span></span><br><span class="line"><span class="comment"># Scheme Settings</span></span><br><span class="line"><span class="comment"># ---------------------------------------------------------------</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Schemes</span></span><br><span class="line"><span class="comment">#scheme: Muse</span></span><br><span class="line"><span class="comment">#scheme: Mist</span></span><br><span class="line"><span class="comment">#scheme: Pisces</span></span><br><span class="line"><span class="attr">scheme:</span> <span class="string">Gemini</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Dark Mode</span></span><br><span class="line"><span class="attr">darkmode:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<h4 id="菜单"><a href="#菜单" class="headerlink" title="菜单"></a>菜单</h4><p>定制菜单，打开站点配置配置文件</p>
+<h5 id="自定义菜单"><a href="#自定义菜单" class="headerlink" title="自定义菜单"></a>自定义菜单</h5><p>定制菜单，打开站点配置配置文件</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span> <span class="comment"># || 后是图标链接，来自fontawesome.com</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-archive</span></span><br><span class="line">  <span class="attr">learning:</span> <span class="string">/learning/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-book-dead</span></span><br><span class="line">  <span class="attr">mytime:</span> <span class="string">/mytime/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-hourglass-half</span></span><br><span class="line">  <span class="attr">truth:</span> <span class="string">/truth/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-globe</span></span><br><span class="line">  <span class="comment">#categories: /categories/ || fa fa-th</span></span><br><span class="line">  <span class="comment">#tags: /tags/ || fa fa-tags</span></span><br><span class="line">  <span class="attr">about:</span> <span class="string">/about/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-user</span></span><br><span class="line">  <span class="comment">#schedule: /schedule/ || fa fa-calendar</span></span><br><span class="line">  <span class="comment">#sitemap: /sitemap.xml || fa fa-sitemap</span></span><br><span class="line">  <span class="comment">#commonweal: /404/ || fa fa-heartbeat</span></span><br></pre></td></tr></table></figure>
 <p>打开Blog\themes\next\languages文件下的语言配置文件zh-CN.yml，添加相应的中文翻译</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">首页</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">归档</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="string">分类</span></span><br><span class="line">  <span class="attr">tags:</span> <span class="string">标签</span></span><br><span class="line">  <span class="attr">about:</span> <span class="string">关于</span></span><br><span class="line">  <span class="attr">learning:</span> <span class="string">学无止境</span></span><br><span class="line">  <span class="attr">mytime:</span> <span class="string">时光印记</span></span><br><span class="line">  <span class="attr">truth:</span> <span class="string">格物致知</span></span><br></pre></td></tr></table></figure>
@@ -465,6 +465,12 @@ P_{r}(d)=\frac{P_{t}G_{t}G{r}\lambda^{2}}{(4\pi)^{2}d^{2}L}</script>
           
         <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
